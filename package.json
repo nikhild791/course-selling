@@ -1,0 +1,21 @@
+{
+  "name": "course-selling-backend",
+  "version": "1.0.0",
+  "description": "This is backend for a course selling website",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "-": "^0.0.1",
+    "bcrypt": "^5.1.1",
+    "express": "^4.21.0",
+    "mongoose": "^8.7.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.3.3"
+  }
+}
